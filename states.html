@@ -1,0 +1,108 @@
+<html>
+
+<head>
+  <title>Select State</title>
+
+  <style>
+    body {
+      margin: 0;
+      background-image: url("taj.jpg");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .container {
+
+      padding: 100px 110px;
+      text-align: center;
+    }
+
+    h1 {
+      color: black;
+    }
+
+    select, button {
+      padding: 12px;
+      width: 100%;
+      margin-top: 20px;
+      border-radius: 8px;
+      border: 1px solid purple;
+    }
+   
+    button {
+      width: 30%;
+      background: violet;
+      border: none;
+      color: white;
+      font-weight: bold;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <div class="container">
+
+    <h1>Select Your State</h>
+
+    <select id="stateSelect">
+      <option value="" disabled selected>Select a state</option>
+      <option value="andhra">Andhra Pradesh</option>
+      <option value="arunachal">Arunachal Pradesh</option>
+      <option value="assam">Assam</option>
+      <option value="bihar">Bihar</option>
+      <option value="chhattisgarh">Chhattisgarh</option>
+      <option value="goa">Goa</option>
+      <option value="gujarat">Gujarat</option>
+      <option value="haryana">Haryana</option>
+      <option value="himachal">Himachal Pradesh</option>
+      <option value="jharkhand">Jharkhand</option>
+      <option value="karnataka">Karnataka</option>
+      <option value="kerala">Kerala</option>
+      <option value="mp">Madhya Pradesh</option>
+      <option value="maharashtra">Maharashtra</option>
+      <option value="manipur">Manipur</option>
+      <option value="meghalaya">Meghalaya</option>
+      <option value="mizoram">Mizoram</option>
+      <option value="nagaland">Nagaland</option>
+      <option value="odisha">Odisha</option>
+      <option value="punjab>Punjab</option>
+      <option value="rajasthan">Rajasthan</option>
+      <option value="sikkim">Sikkim</option>
+      <option value="tamilnadu">Tamil Nadu</option>
+      <option value="telangana">Telangana</option>
+      <option value="tripura">Tripura</option>
+      <option value="up">Uttar Pradesh</option>
+      <option value="uttarakhand">Uttarakhand</option>
+      <option value="wb">West Bengal</option>
+      <option value="delhi">Delhi</option>
+      <option value="jk">Jammu & Kashmir</option>
+      <option value="ladakh">Ladakh</option>
+    </select>
+
+   <button onclick="goToState()">Go</button>
+
+  </div>
+
+<script>
+    function goToState() {
+      const selectedState = document.getElementById("stateSelect").value;
+      if (selectedState) {
+        window.location.href = selectedState + ".html";
+      } else {
+        alert("Please select a state.");
+      }
+    }
+  </script> 
+ 
+</body>
+
+</html>

@@ -1,0 +1,120 @@
+<html>
+
+<head>
+  <title>Maharashtra</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-image: url('maharashtra.jpg ');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 135vh;
+      padding: 20px;
+    }
+
+    .content {
+     color:white;
+     font-size: 20px; 
+    }
+
+.button-container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 50px;
+      width: 100%;
+    }
+
+    .orange-button {
+      padding: 20px;
+      background: linear-gradient(145deg, #ffa726, #fb8c00);
+      border: none;
+      color: white;
+      font-size: 30px;
+      font-weight: bold;
+      border-radius: 30px;
+      cursor: pointer;
+
+    }
+
+    .orange-button:hover {
+      background: linear-gradient(145deg, #fb8c00, #ffa726);
+      transform: translateY(-3px);
+      box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    }
+  
+   .heading{
+      font-size:50px;
+      text-align:center;
+}
+ 
+.back {
+      width: 30%;
+      font-size: 20px;
+      
+      border: none;
+      color: black;
+      font-weight: bold;
+      border-radius: 20px;
+      cursor: pointer;
+      padding: 12px;
+      margin-top: 20px;
+      border: 1px solid black;
+ 
+    }
+
+
+  </style>
+
+</head>
+
+<body>
+  
+    <h1>Maharashtra</h1>
+
+    <div class="content">
+
+    <b><p>Maharashtra  is a state in the western peninsular region of India occupying a substantial portion of the Deccan Plateau. It is bordered by the Arabian Sea to the west, the Indian states of Karnataka and Goa to the south, Telangana to the southeast and Chhattisgarh to the east, Gujarat and Madhya Pradesh to the north, and the Indian union territory of Dadra and Nagar Haveli and Daman and Diu to the northwest. Maharashtra is the third-most populous state in India and the fourth-most populous country subdivision in the world.</p>
+
+<p>The state is divided into 6 divisions and 36 districts. Mumbai is the capital of Maharashtra due to its historical significance as a major trading port and its status as India's financial hub, housing key institutions and a diverse economy. Additionally, Mumbai's well-developed infrastructure and cultural diversity make it a suitable administrative center for the state, and the most populous urban area in India, with Nagpur serving as the winter capital. The Godavari and Krishna are the state's two major rivers, and forests cover 16.47% of the state's geographical area. The state is home to six UNESCO World Heritage Sites: Ajanta Caves, Ellora Caves, Elephanta Caves, Chhatrapati Shivaji Terminus (formerly Victoria Terminus), the Victorian Gothic and Art Deco Ensembles of Mumbai and the Western Ghats, a heritage site made up of 39 individual properties of which four are in Maharashtra.</p>
+
+<p>The economy of Maharashtra is the largest in India, with a gross state domestic product (GSDP) of ₹42.5 trillion (US$500 billion) and GSDP per capita of ₹335,247 (US$3,900); it is the single-largest contributor to India's economy, being accountable for 14% of all-India nominal GDP. The service sector dominates the state's economy, accounting for 69.3% of the value of the output of the country. Although agriculture accounts for 12% of the state GDP, it employs nearly half the population of the state.</p>
+
+<p>Maharashtra is one of the most industrialised states in India. The state's capital, Mumbai, is India's financial and commercial capital. The Bombay Stock Exchange, India's largest stock exchange and the oldest in Asia, is located in the city, as is the National Stock Exchange, which is the second-largest stock exchange in India and one of world's largest derivatives exchanges. The state has played a significant role in the country's social and political life and is widely considered a leader in terms of agricultural and industrial production, trade and transport, and education. Maharashtra is the ninth-highest ranking among Indian states in the human development index.</p>
+
+<p>The region that encompasses the modern state has a history going back many millennia. Notable dynasties that ruled the region include the Asmakas, the Mauryas, the Satavahanas, the Western Satraps, the Abhiras, the Vakatakas, the Chalukyas, the Rashtrakutas, the Western Chalukyas, the Seuna Yadavas, the Khaljis, the Tughlaqs, the Bahamanis and the Mughals. In the early nineteenth century, the region was divided between the Dominions of the Peshwa in the Maratha Confederacy and the Nizamate of Hyderabad.</p>
+
+<p>After two wars and the proclamation of the Indian Empire, the region became a part of the Bombay Province, the Berar Province and the Central Provinces of India under direct British rule and the Deccan States Agency under Crown suzerainty. Between 1950 and 1956, the Bombay Province became the Bombay State in the Indian Union, and Berar, the Deccan states and the Gujarat states were merged into the Bombay State. Aspirations of a separate state for Marathi-speaking peoples were pursued by the United Maharashtra Movement; their advocacy eventually borne fruit on 1 May 1960, when the State of Bombay was bifurcated into the modern states of Maharasthra and Gujarat.</p></b>
+
+  </div>
+
+<br><br><br>
+
+<h1 class="heading">To Know More</h1>
+<br><br>
+<div class="button-container">
+    <button class="orange-button" onclick="goToPage('mahahistory')">History</button>
+    <button class="orange-button" onclick="goToPage('mahageography')">Geography</button>
+    <button class="orange-button" onclick="goToPage('mahaclimate')">Climate</button>
+    <button class="orange-button" onclick="goToPage('mahaflora')">Flora and Fauna</button>
+    <button class="orange-button" onclick="goToPage('mahaeconomy')">Economy</button>
+    <button class="orange-button" onclick="goToPage('mahaeducation')">Education</button>
+    <button class="orange-button" onclick="goToPage('mahaculture')">Culture</button>
+    <button class="orange-button" onclick="goToPage('mahasports')">Sports</button>
+    <button class="orange-button" onclick="goToPage('mahatourism')">Tourism</button>
+    <button class="back" onclick="goToPage('states')">Back</button>
+  </div>
+
+<script>
+    function goToPage(name) {
+      const formattedName = name+".html";
+      window.location.href = formattedName;
+    }
+  </script>
+
+ 
+</body>
+
+</html>

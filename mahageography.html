@@ -1,0 +1,108 @@
+<html>
+
+<head>
+  <title>Geography - Maharashtra</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #f9d423, #24fe41);
+      height: 130vh;
+      padding: 20px;
+    }
+
+    .content {
+     color:black;
+     font-size: 20px; 
+    }
+
+  
+   .heading{
+      font-size:50px;
+      text-align:center;
+}
+ 
+.back {
+      width: 20%;
+      font-size: 20px;
+      border: none;
+      color: black;
+      font-weight: bold;
+      border-radius: 20px;
+      cursor: pointer;
+      padding: 12px;
+      margin-top: 20px;
+      border: 1px solid black;
+ 
+    }
+
+.image-row {
+      display: flex;
+      gap: 50px;
+      flex-wrap: wrap; 
+      justify-content: center;
+    }
+
+    .image-box {
+      text-align: center;
+      width: 200px;
+    }
+
+    .image-box img {
+      width: 100%;
+      border-radius: 12px;
+    }
+
+    .caption {
+      margin-top: 8px;
+      font-weight: bold;
+      color: #333;
+    }
+
+
+  </style>
+
+</head>
+
+<body>
+  
+    <h1>Geography</h1>
+
+    <div class="content">
+
+    <b><p>Maharashtra with a total area of 307,713 km2 (118,809 sq mi), is the third-largest state by area in terms of land area and constitutes 9.36% of India's total geographical area. The State lies between 15°35' N to 22°02' N latitude and 72°36' E to 80°54' E longitude. It occupies the western and central part of the country and has a coastline stretching 840 kilometres (520 mi) along the Arabian Sea. The dominant physical feature of the state is its plateau character, which is separated from the Konkan coastline by the mountain range of the Western Ghats, which runs parallel to the coast from north to south. The Western Ghats, also known as the Sahyadri Range, has an average elevation of 1,200 metres (3,900 ft); its slopes gently descending towards the east and southeast. The Western Ghats (or the Sahyadri Mountain range) provide a physical barrier to the state on the west, while the Satpura Hills along the north and Bhamragad-Chiroli-Gaikhuri ranges on the east serve as its natural borders. This state's expansion from North to South is 720 km (450 mi) and East to West is 800 km (500 mi). To the west of these hills lie the Konkan coastal plains, 50–80 km (31–50 mi) in width. To the east of the Ghats lies the flat Deccan Plateau. The main rivers of the state are the Krishna, and its tributary, Bhima, the Godavari, and its main tributaries, Manjara, and Wardha-Wainganga and the Tapi, and its tributary Purna. Maharashtra is divided into five geographic regions. Konkan is the western coastal region, between the Western Ghats and the sea. Khandesh is the north region lying in the valley of the Tapti, Purna river. Nashik, Malegaon Jalgaon, Dhule and Bhusawal are the major cities of this region. Desh is in the centre of the state. Marathwada, which was a part of the princely state of Hyderabad until 1956, is located in the southeastern part of the state. Aurangabad and Nanded are the main cities of the region. Vidarbha is the easternmost region of the state, formerly part of the Central Provinces and Berar.</p>
+
+<p>The state has limited area under irrigation, low natural fertility of soils, and large areas prone to recurrent drought. Due to this the agricultural productivity of Maharashtra is generally low as compared to the national averages of various crops. Maharashtra has been divided in to nine agro-climatic zones on the basis of annual rainfall soil types, vegetation and cropping pattern.</p></b>
+
+  </div>
+<br><br>
+ <div class="image-row">
+
+    <div class="image-box">
+      <img src="wainganga.jpeg" alt="Image 3">
+      <div class="caption">Wainganga River near Bhandara district.</div>
+    </div>
+
+    <div class="image-box">
+      <img src="western.jpg" alt="Image 2">
+      <div class="caption">Bramhagiri hills in Sahyadri mountain range (Western Ghats).</div>
+    </div>
+
+
+
+</div>
+    <button class="back" onclick="goToPage('maharashtra')">Back</button>
+  
+
+<script>
+    function goToPage(name) {
+      const formattedName = name+".html";
+      window.location.href = formattedName;
+    }
+  </script>
+
+ 
+</body>
+
+</html>

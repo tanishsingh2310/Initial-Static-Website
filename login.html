@@ -1,0 +1,91 @@
+<html>
+
+<head>
+  <title>Login Page</title>
+  <style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("india.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.login-form {
+  padding: 2.5rem;
+  width: 100%;
+  max-width: 400px;
+}
+
+.login-form h1 {
+  text-align:centre;
+  margin-bottom: 10px;
+  font-size: 30px;
+  color: black;
+}
+
+.login-form p {
+  
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  outline: none;
+}
+
+
+
+.login-form button {
+  width: 100%;
+  padding: 12px;
+  background: #74ebd5;
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.login-form button:hover {
+  background: purple;
+}
+</style>
+
+
+</head>
+
+<body>
+  <div class="login-form">
+
+    <form action="states.html">
+
+      <h1><b>Welcome Back</b></h1
+      <p><strong>Please login to your account</strong></p>
+      
+      <input type="text" placeholder="Username" required />
+      <input type="password" placeholder="Password" required />
+      
+      <button onclick="login()">Login</button>
+      
+    </form>
+
+  </div>
+
+</body>
+
+</html>
